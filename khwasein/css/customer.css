@@ -1,0 +1,50 @@
+body{
+    color: red;
+    height:  2000;
+    background: url(../images/im2.jpg)
+    no-repeat fixed ;
+    background-size: cover;
+
+}
+.container{
+    background-color: white;
+}
+.van{
+    font-size: 40px;
+    text-decoration: none;
+    margin-left: 30px;
+
+}
+.van :hover{
+color: cyan;
+background-color: black;
+text-decoration: none;
+    
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  
+}
+  .g{
+      margin-left: 30px;
+  }
+a{
+    float:left; 
+}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown{
+    position: absolute;
+    display: inline-block;
+}
+.th{
+    font-size: 40px;
+}
+.o1{
+    font-size: 30px;
+    color: blue;
+}
